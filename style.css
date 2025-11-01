@@ -1,3 +1,9 @@
+/* CSS: Dino Angelovski
+ Resources used: W3Schools 
+ CSS Grid: https://www.w3schools.com/css/css_grid.asp
+ Flexboxes:https://www.w3schools.com/css/css3_flexbox.asp 
+*/
+/* Body CSS */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -5,6 +11,7 @@ body {
   background: #9dbebb;
   box-sizing: border-box;
 }
+/* Sticky header makes the header stay on top and h1 CSS */
 header {
   position: sticky; top: 0; z-index: 10;
   color:white; background: #3b82f6; border-bottom: 1px solid #e5e7eb;
@@ -14,6 +21,7 @@ header h1 {
   margin: 0; 
   font-size: 20px; 
 }
+/* The css for the Forms: the layout for the rows, input and dropdowns and the focus */
 .row { 
   display: flex; 
   gap: 8px; 
@@ -30,6 +38,7 @@ input[type="text"]:focus, select:focus {
   border-color: #3b82f6; 
   box-shadow: 0 0 0 4px darkgreen;
 }
+/* Buttons CSS and different styles, specificly default, primary, ghost and clear */
 button {
   padding: 10px 12px; 
   border: 1px solid #e5e7eb; 
@@ -51,6 +60,7 @@ button.clear {
   color: white; 
   padding: 10px;
 }
+/* The layout of the page specificaly containers and the grid*/
 main { 
   max-width: 1100px; 
   margin: 20px auto; 
@@ -63,13 +73,7 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 12px; 
 }
-.card {
-  background: white; 
-  border: 1px solid #e5e7eb; 
-  border-radius: 14px;
-  overflow: hidden; 
-  display: grid;
-}
+/* The recepie style for the cards: images, padding, title, muted text, tags, and the row layout*/
 .card img { 
   width: 100%; height: 140px; 
   object-fit: cover; 
@@ -102,6 +106,7 @@ main {
   align-items: center; 
   justify-content: space-between; 
 }
+/* The containers for each section style the boxed panels*/
 .section { 
   background: whitesmoke; 
   border: 2px solid #e5e7eb; 
@@ -116,7 +121,7 @@ main {
 .section .pad { 
   padding: 12px 14px; 
 }
-
+/* Table styles for ingredients and instructions*/
 table { 
   width: 100%; 
   border-collapse: collapse; 
@@ -140,6 +145,7 @@ th {
   background: #f3f4f6; 
   display: inline-block; 
 }
+/* Footer style */
 footer { 
   text-align: center; 
   color: darkgray; font-size: 12px;
