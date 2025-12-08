@@ -1,10 +1,10 @@
 <?php require_once 'config.php'; ?>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
+  <meta>
   <title>Recipe Finder & Meal Planner</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/style.css">
   <style>
     body {
       display:flex;align-items:center;justify-content:center;
