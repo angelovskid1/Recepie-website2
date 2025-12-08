@@ -10,7 +10,7 @@ $isGuest = !$isLoggedIn && (isset($_GET['guest']) || ($_SESSION['guest'] ?? fals
   <meta charset="UTF-8">
   <title>Recipe Finder & Meal Planner</title>
   <link rel="stylesheet" href="assets/style.css">
-  <script defer src="assets/js/main.js"></script>
+  <script defer src="assets/main.js"></script>
 </head>
 <body>
 <?php include 'partials/nav.php'; ?>
